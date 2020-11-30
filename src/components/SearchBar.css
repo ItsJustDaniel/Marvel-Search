@@ -1,0 +1,9 @@
+.field {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.searchbar {
+  height: 4em;
+}
