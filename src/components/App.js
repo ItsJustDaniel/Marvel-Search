@@ -74,13 +74,7 @@ class App extends React.Component {
     return (
       <div className="container">
         <h1 className="title">Marvel Characters</h1>
-        {() => {
-          if (!this.state.selectedCard) {
-            return (
-              <Element id="CharacterDetails" name="CharacterDetails"></Element>
-            );
-          }
-        }}
+        <Element id="CharacterDetails" name="CharacterDetails" />
         <SearchBar onFormSubmit={this.onFormSubmit} />
         <RandomButton handleRandom={this.handleRandom} />
         <CharacterDetails selectedCard={this.state.selectedCard} />
