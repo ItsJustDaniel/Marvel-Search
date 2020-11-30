@@ -73,7 +73,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="container">
-        <h1 className="title">Marvel Characters</h1>
+        <h1 className="title">Marvel Search</h1>
         <Element id="CharacterDetails" name="CharacterDetails" />
         <SearchBar onFormSubmit={this.onFormSubmit} />
         <RandomButton handleRandom={this.handleRandom} />
