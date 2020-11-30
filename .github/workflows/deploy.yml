@@ -17,8 +17,8 @@ jobs:
           npm install
           npm run-script build
         env: |
-          REACT_APP_PRIVATE:65bb2fef124e04d17606097423d6c0a1613a8a78
-          REACT_APP_PUBLIC:e7f25e5e35514ae3138167e506312c4d
+          REACT_APP_PRIVATE:${{secrets.REACT_APP_PRIVATE}}
+          REACT_APP_PUBLIC:${{secrets.REACT_APP_PUBLIC}}
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
