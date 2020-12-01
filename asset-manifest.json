@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.97a0ef13.chunk.css",
-    "main.js": "/static/js/main.6077bf17.chunk.js",
-    "main.js.map": "/static/js/main.6077bf17.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ce1f3655.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ce1f3655.js.map",
-    "static/js/2.95ad2059.chunk.js": "/static/js/2.95ad2059.chunk.js",
-    "static/js/2.95ad2059.chunk.js.map": "/static/js/2.95ad2059.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.97a0ef13.chunk.css.map": "/static/css/main.97a0ef13.chunk.css.map",
-    "static/js/2.95ad2059.chunk.js.LICENSE.txt": "/static/js/2.95ad2059.chunk.js.LICENSE.txt"
+    "main.css": "/Marvel-Search/static/css/main.97a0ef13.chunk.css",
+    "main.js": "/Marvel-Search/static/js/main.6077bf17.chunk.js",
+    "main.js.map": "/Marvel-Search/static/js/main.6077bf17.chunk.js.map",
+    "runtime-main.js": "/Marvel-Search/static/js/runtime-main.8e2d4ba3.js",
+    "runtime-main.js.map": "/Marvel-Search/static/js/runtime-main.8e2d4ba3.js.map",
+    "static/js/2.95ad2059.chunk.js": "/Marvel-Search/static/js/2.95ad2059.chunk.js",
+    "static/js/2.95ad2059.chunk.js.map": "/Marvel-Search/static/js/2.95ad2059.chunk.js.map",
+    "index.html": "/Marvel-Search/index.html",
+    "static/css/main.97a0ef13.chunk.css.map": "/Marvel-Search/static/css/main.97a0ef13.chunk.css.map",
+    "static/js/2.95ad2059.chunk.js.LICENSE.txt": "/Marvel-Search/static/js/2.95ad2059.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ce1f3655.js",
+    "static/js/runtime-main.8e2d4ba3.js",
     "static/js/2.95ad2059.chunk.js",
     "static/css/main.97a0ef13.chunk.css",
     "static/js/main.6077bf17.chunk.js"
