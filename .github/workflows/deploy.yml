@@ -16,8 +16,7 @@ jobs:
         run: |
           npm install
           npm run-script build
-        env: |
-
+        env:
         REACT_APP_PRIVATE: ${{ secrets.REACT_APP_PRIVATE }}
         REACT_APP_PUBLIC: ${{ secrets.REACT_APP_PUBLIC }}
 
