@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Marvel-Search/static/css/main.97a0ef13.chunk.css",
-    "main.js": "/Marvel-Search/static/js/main.ecf3ca64.chunk.js",
-    "main.js.map": "/Marvel-Search/static/js/main.ecf3ca64.chunk.js.map",
+    "main.js": "/Marvel-Search/static/js/main.cf059265.chunk.js",
+    "main.js.map": "/Marvel-Search/static/js/main.cf059265.chunk.js.map",
     "runtime-main.js": "/Marvel-Search/static/js/runtime-main.8e2d4ba3.js",
     "runtime-main.js.map": "/Marvel-Search/static/js/runtime-main.8e2d4ba3.js.map",
     "static/js/2.5bf137cb.chunk.js": "/Marvel-Search/static/js/2.5bf137cb.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.8e2d4ba3.js",
     "static/js/2.5bf137cb.chunk.js",
     "static/css/main.97a0ef13.chunk.css",
-    "static/js/main.ecf3ca64.chunk.js"
+    "static/js/main.cf059265.chunk.js"
   ]
 }
