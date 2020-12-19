@@ -8,10 +8,17 @@ import CharacterDetails from "./CharacterDetails";
 import RandomButton from "./randomButton";
 import LoadMore from "./LoadMore";
 import { Element } from "react-scroll";
+import Footer from "./Footer";
 
 const imageFound = /image_not_available/gi;
 class App extends React.Component {
-  state = { characters: [], selectedCard: null, offset: 0, name: null };
+  state = {
+    characters: [],
+    selectedCard: null,
+    offset: 0,
+    name: null,
+    isLoading: true,
+  };
   componentDidMount() {
     this.getMarvelResponse(null, null, this.state.offset);
   }
@@ -25,6 +32,7 @@ class App extends React.Component {
   };
 
   handleRandom = (e) => {
+    this.setState({ isLoading: true });
     this.getMarvelResponse(null, null, e);
   };
 
@@ -42,6 +50,7 @@ class App extends React.Component {
           selectedCard: null,
           offset: offset,
           name: name,
+          isLoading: false,
         },
         () => {
           console.log(this.state.characters);
@@ -51,6 +60,7 @@ class App extends React.Component {
   };
 
   onLoadClick = () => {
+    this.setState({ isLoading: true });
     getMarvelCharacters({
       id: null,
       name: this.state.name,
@@ -63,6 +73,7 @@ class App extends React.Component {
           ),
           selectedCard: null,
           offset: this.state.offset + 20,
+          isLoading: false,
         },
         () => {
           console.log(this.state.characters);
@@ -81,8 +92,10 @@ class App extends React.Component {
         <CardList
           characters={this.state.characters}
           onCharacterSelect={this.onCharacterSelect}
+          isLoading={this.state.isLoading}
         />
         <LoadMore onLoadClick={this.onLoadClick} />
+        <Footer />
       </div>
     );
   }
